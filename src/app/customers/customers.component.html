@@ -1,2 +1,8 @@
-<h2>{{customer.firstename}} Details</h2>
-<div><span>id: </span>{{customer.id}}</div>
+<<h2>My Heroes</h2>
+<ul class="Customers">
+  <li *ngFor="let Customer of customers"
+      [class.selected]="Customer === selectedCustomer"
+      (click)="onSelect(Customer)">
+    <span class="badge">{{Customer.id}}</span> {{Customer.firstename || Customer.lastename}}
+  </li>
+</ul>
