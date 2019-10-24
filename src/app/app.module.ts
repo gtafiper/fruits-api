@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { FruitsComponent } from './fruits/fruits.component';
 import { CustomersComponent } from './customers/customers.component';
 import { OrdersComponent } from './orders/orders.component';
-import { Mock
+
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { Mock
     FruitsComponent,
     CustomersComponent,
     OrdersComponent,
-    MockCusComponent
+
   ],
   imports: [
     BrowserModule
